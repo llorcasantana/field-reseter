@@ -1,4 +1,4 @@
-# resetFieldsInPlace
+# Field Reseter
 
 A small TypeScript utility to **reset object fields to default values** depending on their type (string, number, boolean, array, object, etc.).  
 It works **in-place** (mutates the object) which makes it ideal for use with reactive stores (e.g., Vue’s `reactive` or `ref`).  
@@ -21,7 +21,7 @@ It works **in-place** (mutates the object) which makes it ideal for use with rea
 
 ## 📦 Installation
 
-Just copy `resetFieldsInPlace.ts` into your project:
+Just copy `src/index.ts` into your project:
 
 ```
 src/utils/resetFieldsInPlace.ts
