@@ -4,7 +4,10 @@ A small TypeScript utility to **reset object fields to default values** dependin
 It works **in-place** (mutates the object) which makes it ideal for use with reactive stores (e.g., Vue’s `reactive` or `ref`).  
 
 ---
+# Acknowledgments
+If you like the repo, please share it with your dev friends and give it a star. It makes me grow and inspires me to keep creating new things. Thanks.
 
+---
 ## ✨ Features
 - Reset all object fields in-place based on type:
   - `string → ''`
