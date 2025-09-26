@@ -24,10 +24,10 @@ If you like the repo, please share it with your dev friends and give it a star. 
 
 ## 📦 Installation
 
-Just copy `src/index.ts` into your project:
+Just copy install:
 
-```
-src/utils/resetFieldsInPlace.ts
+```bash
+yarn add llorcadev-utils
 ```
 
 ---
@@ -37,7 +37,7 @@ src/utils/resetFieldsInPlace.ts
 ### Basic Example
 
 ```ts
-import { resetFieldsInPlace } from "./resetFieldsInPlace";
+import { useFieldReseter } from "llorcadev-utils";
 
 const product = {
   title: "T-Shirt",
@@ -51,7 +51,7 @@ const product = {
 };
 
 // Reset all fields in-place
-resetFieldsInPlace(product);
+useFieldReseter(product);
 
 console.log(product);
 /*
@@ -75,7 +75,7 @@ console.log(product);
 You can override the default reset values:
 
 ```ts
-resetFieldsInPlace(product, {
+useFieldReseter(product, {
   rules: {
     string: "",        // default for strings
     number: 0,         // default for numbers
@@ -95,7 +95,7 @@ resetFieldsInPlace(product, {
 Skip specific keys from being reset:
 
 ```ts
-resetFieldsInPlace(product, {
+useFieldReseter(product, {
   skip: ["status", "meta"],
 });
 ```
