@@ -1,3 +1,13 @@
+# NOTE
+This project is archived and no longer maintained. Use the follow repo for updated utilities:
+[llorcadev-utils](https://github.com/llorcasantana/llorcadev-utils).
+# llorcadev-utils
+
+[![npm version](https://badge.fury.io/js/llorcadev-utils.svg)](https://badge.fury.io/js/llorcadev-utils) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+
+
+---
+
 # Field Reseter
 
 A small TypeScript utility to **reset object fields to default values** depending on their type (string, number, boolean, array, object, etc.).  
